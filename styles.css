@@ -79,8 +79,12 @@ img {
 }
 
 .nav-list {
+  height: 40px;
   display: flex;
   margin-right: 2rem;
+  font-size: 20px;
+  margin-top: 8px;
+  word-spacing: 2px;
 }
 
 @media (max-width:28.75rem) {
