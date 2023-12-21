@@ -22,6 +22,7 @@ html {
   box-sizing: border-box;
   font-size: 50%;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 /*BASE STYLES*/
@@ -30,7 +31,8 @@ body {
   font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.4;
-  color: var(--main-white)
+  color: var(--main-white);
+    width: 100%;
 }
 
 h1, h2 {
@@ -229,6 +231,16 @@ img {
   transition: transform 0.2s ease-out;
 }
 
-.contact-details:hover {
+.btn-contact-details:hover {
   transform: translateY(6px);
+  color: yellow;
+}
+
+.btn-contact-details {
+  margin: 10px;
+  text-align: center;
+  font-family: arial;
+  border-style: groove;
+  padding: 5px;
+  width: 15%
 }
