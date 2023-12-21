@@ -33,6 +33,7 @@ body {
   line-height: 1.4;
   color: var(--main-white);
     width: 100%;
+  flex-direction:column;
 }
 
 h1, h2 {
@@ -126,13 +127,13 @@ img {
   text-align: center;
   padding: 0.1rem;
   background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%);
-  margin-top: -20rem
+  margin-top: -20rem;
 }
 
 .projects-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid yellow
+  border-bottom: 0.2rem solid yellow;
 }
 
 @media (max-width: 28.75em) {
@@ -193,7 +194,8 @@ img {
   width: 100%;
   height: 50vh;
   padding: 0 2rem;
-  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%)
+  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%);
+    flex-direction:column;
 }
 }
 
