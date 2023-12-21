@@ -234,8 +234,9 @@ img {
 }
 
 .btn-contact-details:hover {
-  transform: translateY(6px);
+  transform: translateY(4px);
   color: yellow;
+  transition: transform 0.2s ease-out;
 }
 
 .btn-contact-details {
