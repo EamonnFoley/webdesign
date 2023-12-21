@@ -84,7 +84,6 @@ img {
   margin-right: 2rem;
   font-size: 20px;
   margin-top: 8px;
-  word-spacing: 2px;
 }
 
 @media (max-width:28.75rem) {
@@ -108,7 +107,8 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%)
+  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%);
+  margin-top: -10rem; 
 }
 
 .welcome-section > p {
@@ -123,7 +123,8 @@ img {
 .projects {
   text-align: center;
   padding: 0.1rem;
-  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%)
+  background-image: linear-gradient(90deg, #C35214 0%, #8A3324 100%);
+  margin-top: -20rem
 }
 
 .projects-header {
